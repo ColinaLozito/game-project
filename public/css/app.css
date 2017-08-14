@@ -1,0 +1,163 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #eee;
+}
+
+h1, h2, h3, h4, h5 {
+	text-align: center;
+}
+
+.logo-img{
+	max-height: 60px;
+}
+
+.enemyAnimat img{
+  float: left;
+  height: 170px;
+}
+
+.heroAnimat img{
+  float: right;
+  height: 170px;
+}
+
+.image-container{
+	background-image: url("http://2.bp.blogspot.com/-cCs5qhGoT1E/Tqx9LyY2DxI/AAAAAAAABZI/t0dd_WHWma8/s1600/futurama-04.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 80%;
+    margin: auto; 
+}
+
+#nav {
+  background: #222;
+  overflow: hidden;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  box-shadow: 0px 5px 25px #333;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  float: right;
+  margin: -5px 30px 10px 0px;
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+
+}
+
+nav li:last-of-type {
+  float: left;
+  font-size: 20px;
+  font-family: Verdana;
+}
+
+@media screen and (max-width: 650px) {
+  #nav a {
+    float: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 15px 150px;
+    width: 100%;
+  }
+
+}
+
+/* buttons */
+
+.contact {
+  border: 1px solid #DF2933;
+  color: #DF2933;
+  padding: 10px 15px;
+  width: 100%;
+  text-align: center;
+  transition: 0.4s;
+  margin-top: 50px;
+}
+
+.contact:hover {
+  background: #DF2933;
+  color: white;
+  transition: 0.4s;
+}
+
+.faq {
+  border: 1px solid #FCAD35;
+  color: #FCAD35;
+  padding: 10px 15px;
+  width: 60px;
+  transition: 0.4s;
+}
+
+.faq:hover {
+  background: #FCAD35;
+  color: white;
+  transition: 0.4s;
+}
+
+.portfolio {
+  border: 1px solid #FCE45A;
+  color: #FCE45A;
+  padding: 10px 15px;
+  width: 60px;
+  transition: 0.4s;
+}
+
+.portfolio:hover {
+  background: #FCE45A;
+  color: white;
+  transition: 0.4s;
+}
+
+.about {
+  border: 1px solid #39EA99;
+  color: #39EA99;
+  padding: 10px 15px;
+  width: 250px;
+  transition: 0.4s;
+}
+
+.about:hover {
+  background: #39EA99;
+  color: white;
+  transition: 0.4s;
+}
+
+.container {
+	margin-top: 60px;
+}
+
+#heroH, #enemyH{
+	color: red;
+}
+
+.logsView{
+	height: 200px;
+	width: : 80%;
+	margin: 50px;
+	background-color: #ddd;
+}
+
+.logSection h1{
+	margin-top: 50px;
+}
+
+.logsContent{
+	width: 80%;
+	height: 200px;
+	border-style: solid; 
+}
+
+.btn-danger{
+	float:right;
+}
