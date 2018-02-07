@@ -17,7 +17,7 @@ class AddLogsTable extends Migration
             $table->increments('id');
             $table->string('events');   
             $table->string('name');
-            $table->enum('enemy');
+            $table->string('enemy');
             $table->string('message');
             $table->integer('victory');
             $table->integer('health');

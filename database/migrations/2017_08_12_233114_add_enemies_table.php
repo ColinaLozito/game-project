@@ -15,7 +15,7 @@ class AddEnemiesTable extends Migration
     {
         Schema::create('enemies', function (Blueprint $table) {
             $table->increments('id');
-            $table->enum('class');
+            $table->string('class');
             $table->integer('defense');
             $table->timestamps();
         });

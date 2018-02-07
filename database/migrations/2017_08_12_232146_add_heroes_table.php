@@ -16,7 +16,7 @@ class AddHeroesTable extends Migration
         Schema::create('heroes', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->enum('class');
+            $table->string('class');
             $table->integer('atack');
             $table->integer('speed');
             $table->integer('luck');
