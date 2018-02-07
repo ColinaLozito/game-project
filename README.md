@@ -11,9 +11,11 @@ To Run this project fallow this steps
 5. execute the following command "cp .env.example .env".
 6. Go to .env file and edit your DB parameters.
 7. Go to your localhost/phpmyadmin database and create the game Database (defoult name: gameproject).
+8. In the console run the following command "php artisan migrate:refresh --seed" to migrate and seed the DB.
+9. Run "composer dump-autoload" command.
+10. Run "php artisan key:generate" command.
+11. Then execute the command "php artisan serve".
+12. Try it!!
 
+# NOTE: To watch the events during game. OPEN the console of your browser and watch it!!!
 
-
-3. then execute the command php artisan migrate.
-4. then execute the command php artisna db:seed.
-5. then execute the command php artisan serve.
