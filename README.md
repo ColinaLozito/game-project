@@ -1,5 +1,7 @@
 # game-project
 
+Hi. This is my first Laravel 5 project maded under 24 continuous hours.
+
 To Run this project fallow this steps
 
 1. Open console and go to folder project.
